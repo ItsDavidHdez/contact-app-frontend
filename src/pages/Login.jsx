@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import axios from "axios";
 
-const BASE_API = "http://localhost:8000/api/v1";
+const BASE_API = "http://46.183.112.177:8000/api/v1";
 
 const Login = () => {
   const navigate = useNavigate();
